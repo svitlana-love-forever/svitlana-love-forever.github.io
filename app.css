@@ -22,13 +22,18 @@ body {
 }
 
 .text {
-  height: 100dvh;
+  height: fit-content;
+  top: 40px;
   width: 80%;
   margin: auto;
-  background-color: rgba(0, 0, 0, .5);
   padding: 40px;
   font-size: 30px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
+}
+
+p {
+  padding: 0 12px;
+  background-color: rgba(0, 0, 0, .5);
 }

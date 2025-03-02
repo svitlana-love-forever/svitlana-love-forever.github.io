@@ -19,6 +19,15 @@ body {
 .header {
   background-color: rgba(0,0,0,.5);
   padding: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  background-image: linear-gradient(to right bottom, #ffffff, #ff0000);
+  background-clip: text;
+  font-size: 40px;
+  color: transparent;
+  text-transform: uppercase;
 }
 
 .text {
@@ -33,7 +42,14 @@ body {
   gap: 40px;
 }
 
-p {
+div {
   padding: 0 12px;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 16px;
+}
+
+p {
+  background-image: linear-gradient(to right bottom, #fff, #bb6ce6);
+  background-clip: text;
+  color: transparent;
 }
